@@ -1,0 +1,17 @@
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{% block title %} Django with vue cli{% endblock title %}</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Django with vue cli">
+  <meta name="author" content="David Hedderman">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div>
+<h1>Some base content here</h1>
+{% block content %}{% endblock content %}
+</div>
+</body>
+</html>
